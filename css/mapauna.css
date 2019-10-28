@@ -1,0 +1,39 @@
+main{
+    text-align: center;
+}
+
+.text1{    
+    color: black;
+}
+.text1:hover{
+    color: springgreen;
+    cursor: pointer;
+    
+}
+
+#logo {
+    padding: 0;
+}
+img {
+    width: 90%;
+    }
+
+@media (min-width: 768px) {
+    .container {
+    display:flex;
+  }
+  aside {    
+    flex: 25%;
+    display: block;
+    height:auto;
+  }
+  main {    
+    flex:75%;
+    display: block;
+  }
+  nav {
+      display: none;
+  }
+}
+
+

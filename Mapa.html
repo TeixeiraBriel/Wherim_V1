@@ -1,0 +1,41 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/mapauna.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/location.ico">
+    <title>Mapa Una</title>
+</head>
+
+<body>
+    <nav class="links">
+        <a class="logo" href="index.html">Voltar</a>
+    </nav>
+    <section class="sections">
+        <section class="parallax-teste">
+            <div class="container0">
+                <div class="viagem">
+                    <label class="titulosSecundarios" for="">Localização atual:</label>
+                    <input id="atual" type="text">
+                    <label class="titulosSecundarios" for="">Localização Destino:</label>
+                    <input id="destino" type="text">
+                    <input type="button" value="Traçar Caminho" onclick="caminhoNovo()">
+                    <input type="button" value="Reiniciar" onclick="resetNovo()">
+                </div>
+                <div class="viagem">
+                    <label style="color: #fff;" for="">Ultimo Atual: <input class="historicoBuscas" id="ultimoAtual" value="sem buscas" readonly></input></label>
+                    <label style="color: #fff;" for="">Ultimo Destino: <input class="historicoBuscas" id="ultimoDestino"value="sem buscas" readonly></input></label>
+                </div>
+                <img style="padding-top :40px; width: 76%;" id="img" src="img/MapaBranco.png ">
+            </div>  
+        </section>
+    </section>
+</body>
+
+</html>
+
+<script src="js/mapas.js"></script>
+

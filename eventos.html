@@ -1,0 +1,48 @@
+﻿<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/eventos.css">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Horario</title>
+    </head>
+
+    <body>        
+        <nav class="links">
+            <a class="logo" href="index.html">Voltar</a>
+        </nav>
+
+        <section class="sections">
+            <section class="parallax-teste">
+                <div class="container0">
+                    <table id="Tabela">
+                        <tr id="minhatabela">
+                            <td class="Cabecalho">Horario</td>
+                            <td class="Cabecalho">Tema e Sala</td>
+                            <td class="Cabecalho">Data</td>
+                        </tr>
+                        <!--loop-->
+                        <tr class="linhaHorario">
+                            <td class="linhaHorarioA">18:55 - 19:45</td>
+                            <td>Laboratorio de Aprendizagem Integrada 1A<span class="sala"> - Sala 313</span></td>
+                            <td>17/03/18</td>
+                        </tr>
+                        <!--loop-->
+
+                    </table>
+                </div>
+            </section>
+        </section>
+    </body>
+</html>
+
+
+<script src="js/eventos.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        teste();
+    });
+</script>
